@@ -1,0 +1,122 @@
+.presentacio{
+    background-color:#C3F8FF;
+text-align: center;
+padding-left: 5%;
+padding-top: 5%;
+padding-bottom: 5%;
+padding-right: 5%;
+
+
+
+}
+
+h1{ 
+    padding: 3%;
+
+
+}
+h4{
+padding: 3%;
+    
+}
+span{
+    font-weight: bold;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font:bold;
+
+
+
+}
+
+.plats{
+    background-color:#FFF6BF;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    
+
+}
+.identitat{
+    background-color:#ABD9FF;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+.peu{
+    background-color:#FFEBAD;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+
+}
+.rds{
+
+    width: 50px;
+}
+h2{
+font-family: 'Cherry Swash';
+
+}
+.burguer{
+   
+    width: 200px;
+}
+.menuburguer{
+    background-color:#FFF6BF;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    
+
+}
+.meat{
+    width: 50px;
+}
+
+.wheat{
+    width: 50px;
+}
+.milk{
+    width: 50px;
+}
+.vegetables{
+    width: 50px;
+}
+.vegan{
+    width: 50px;
+}
+.soy{
+    width: 50px;
+}
+.fruits{
+    width: 50px;
+}
+.formulario{
+    padding: 10%;
+}
