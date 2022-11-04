@@ -7,7 +7,7 @@ Por otro lado aclarar que todo lo explicado dentro del proyecto es ficticio ya q
 En este proyecto encontramos 3 archivos diferentes:
 index.html-----> breve explicacion de como surgio la idea de montar un restaurante, imagenes de espacios y platos.
 
-contacto.htm---> formulario de contacto para que los usuarios dejen toda la informacion necesaria para llamarlos y confirmarles la reserva.
+contacto.html---> formulario de contacto para que los usuarios dejen toda la informacion necesaria para llamarlos y confirmarles la reserva.
 
 carta.html-----> Nuestras hamburguesas, explicacion detallada de lo que lleva cada plato, asi como informacion de contenido mediante ilustraciones para prevenir alergias e intolerancias.
 

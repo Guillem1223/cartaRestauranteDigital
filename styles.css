@@ -1,129 +1,128 @@
-.presentacio{
-    background-color:#C3F8FF;
-text-align: center;
-padding-left: 5%;
-padding-top: 5%;
-padding-bottom: 5%;
-padding-right: 5%;
-
-
-
+.presentacio {
+  background-color: #c3f8ff;
+  text-align: center;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
 }
 
-h1{ 
-    padding: 3%;
-
-
+h1 {
+  padding: 3%;
 }
-h4{
-padding: 3%;
-    
+h4 {
+  padding: 3%;
 }
-span{
-    font-weight: bold;
+span {
+  font-weight: bold;
 }
-.contenedor{
-    position: relative;
-    display: inline-block;
-    text-align: center;
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
 }
 
-.texto-encima{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    
+.texto-encima {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
-.centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 100px;
-    font:bold;
-
-
-
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  font: bold;
 }
 
-.plats{
-    background-color:#FFF6BF;
-    text-align: center;
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-right: 5%;
-    
-
+.plats {
+  background-color: #fff6bf;
+  text-align: center;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
 }
-.identitat{
-    background-color:#ABD9FF;
-    text-align: center;
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-right: 5%;
+.identitat {
+  background-color: #abd9ff;
+  text-align: center;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
 }
-.peu{
-    background-color:#FFEBAD;
-    text-align: center;
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-right: 5%;
-
+.peu {
+  background-color: #ffebad;
+  text-align: center;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
 }
-.rds{
-
-    width: 50px;
+.rds {
+  width: 50px;
 }
-h2{
-font-family: 'Cherry Swash';
-
+h2 {
+  font-family: "Cherry Swash";
 }
-.burguer{
-   
-    width: 200px;
+.burguer {
+  width: 200px;
 }
-.menuburguer{
-    background-color:#FFF6BF;
-    text-align: left;
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-right: 5%;
-    
-
+.menuburguer {
+  background-color: #fff6bf;
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
 }
-.meat{
-    width: 40px;
+.meat {
+  width: 40px;
 }
 
-.wheat{
-    width: 40px;
+.wheat {
+  width: 40px;
 }
-.milk{
-    width: 40px;
+.milk {
+  width: 40px;
 }
-.vegetables{
-    width: 40px;
+.vegetables {
+  width: 40px;
 }
-.vegan{
-    width: 40px;
+.vegan {
+  width: 40px;
 }
-.soy{
-    width: 40px;
+.soy {
+  width: 40px;
 }
-.fruits{
-    width: 40px;
+.fruits {
+  width: 40px;
 }
-.formulario{
-    padding: 10%;
+.formulario {
+  padding: 10%;
 }
-.cocina{
-   width: 100px;
+.cocina {
+  width: 100px;
 }
-.titulocarta{
-
-    font-size: 7rem;
+.titulocarta {
+  font-size: 7rem;
+}
+section {
+  padding: 50px !important;
+}
+@media only screen and (min-width: 500px) {
+  section {
+    padding: 100px !important;
+  }
+}
+@media only screen and (min-width: 700px) {
+  section {
+    padding: 150px !important;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  section {
+    padding: 200px !important;
+  }
 }
