@@ -108,21 +108,25 @@ h2 {
 .titulocarta {
   font-size: 7rem;
 }
-section {
+section,
+header {
   padding: 50px !important;
 }
 @media only screen and (min-width: 500px) {
-  section {
+  section,
+  header {
     padding: 100px !important;
   }
 }
 @media only screen and (min-width: 700px) {
-  section {
+  section,
+  header {
     padding: 150px !important;
   }
 }
 @media only screen and (min-width: 1000px) {
-  section {
+  section,
+  header {
     padding: 200px !important;
   }
 }
