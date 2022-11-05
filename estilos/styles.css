@@ -1,3 +1,30 @@
+/* media queries */
+
+section,
+header {
+  padding: 50px !important;
+}
+@media only screen and (min-width: 500px) {
+  section,
+  header {
+    padding: 100px !important;
+  }
+}
+@media only screen and (min-width: 700px) {
+  section,
+  header {
+    padding: 150px !important;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  section,
+  header {
+    padding: 200px !important;
+  }
+}
+
+/* pendiente de refactorizar */
+
 .presentacio {
   background-color: #c3f8ff;
   text-align: center;
@@ -78,6 +105,8 @@ h2 {
 .titulocarta {
   font-size: 7rem;
 }
+/* fin pendiente refactorizar */
+
 /* grid-home */
 .home-container {
   display: grid;
@@ -94,33 +123,13 @@ h2 {
   grid-area: carousel;
 }
 .indentitat-container {
-  grid-area: indentitat;
+  grid-area: identitat;
 }
 .peu-container {
   grid-area: footer;
 }
-
-/* media queries */
-
-section,
-header {
-  padding: 50px !important;
-}
-@media only screen and (min-width: 500px) {
-  section,
-  header {
-    padding: 100px !important;
-  }
-}
-@media only screen and (min-width: 700px) {
-  section,
-  header {
-    padding: 150px !important;
-  }
-}
-@media only screen and (min-width: 1000px) {
-  section,
-  header {
-    padding: 200px !important;
-  }
+/* style carousel */
+section.carousel-container.presentacio {
+  padding: 0 !important;
+  justify-self: center;
 }
