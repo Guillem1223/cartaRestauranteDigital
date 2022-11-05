@@ -2,7 +2,7 @@
 
 section,
 header {
-  padding: 50px !important;
+  padding: 10px !important;
 }
 @media only screen and (min-width: 500px) {
   section,
@@ -15,11 +15,19 @@ header {
   header {
     padding: 150px !important;
   }
+  header,
+  .carousel-container {
+    padding: 30px !important;
+  }
 }
 @media only screen and (min-width: 1000px) {
   section,
   header {
     padding: 200px !important;
+  }
+  header,
+  .carousel-container {
+    padding: 30px !important;
   }
 }
 
@@ -130,6 +138,17 @@ h2 {
 }
 /* style carousel */
 section.carousel-container.presentacio {
-  padding: 0 !important;
-  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 400px;
+}
+@media only screen and (max-width: 700px) {
+  .home-container {
+    grid-template-areas:
+      "header"
+      "carousel"
+      "identitat"
+      "footer";
+  }
 }
