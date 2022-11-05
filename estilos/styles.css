@@ -36,14 +36,6 @@ span {
   font: bold;
 }
 
-.plats {
-  background-color: #fff6bf;
-  text-align: center;
-  padding-left: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-right: 5%;
-}
 .identitat {
   background-color: #abd9ff;
   text-align: center;
@@ -67,7 +59,7 @@ h2 {
   font-family: "Cherry Swash";
 }
 .burguer {
-  width: 200px;
+  width: 10px !important;
 }
 .menuburguer {
   background-color: #fff6bf;
@@ -76,28 +68,6 @@ h2 {
   padding-top: 5%;
   padding-bottom: 5%;
   padding-right: 5%;
-}
-.meat {
-  width: 40px;
-}
-
-.wheat {
-  width: 40px;
-}
-.milk {
-  width: 40px;
-}
-.vegetables {
-  width: 40px;
-}
-.vegan {
-  width: 40px;
-}
-.soy {
-  width: 40px;
-}
-.fruits {
-  width: 40px;
 }
 .formulario {
   padding: 10%;
@@ -108,6 +78,30 @@ h2 {
 .titulocarta {
   font-size: 7rem;
 }
+/* grid-home */
+.home-container {
+  display: grid;
+  grid-template-areas:
+    "header carousel"
+    "identitat identitat"
+    "footer footer";
+}
+/* grid-areas-home */
+.header-container {
+  grid-area: header;
+}
+.carousel-container {
+  grid-area: carousel;
+}
+.indentitat-container {
+  grid-area: indentitat;
+}
+.peu-container {
+  grid-area: footer;
+}
+
+/* media queries */
+
 section,
 header {
   padding: 50px !important;

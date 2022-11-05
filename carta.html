@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="estilos/styles.css" />
+    <link rel="stylesheet" href="estilos/carta.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,15 +48,14 @@
         </div>
       </div>
     </nav>
-    <section class="presentacio">
+    <header class="presentacio">
       <h1 class="titulocarta">
         La Carta <img class="cocina" src="img/cocina.png" />
       </h1>
-    </section>
+    </header>
     <section class="menuburguer">
-      <h2>
-        <img class="burguer" src="img/hamburguesa carta.png" alt="" /> Burguers
-      </h2>
+      <img class="burger" src="img/hamburguesa carta.png" alt="" />
+      <h1>Burguers</h1>
 
       <h4>Classica (180g)</h4>
       <table>
@@ -64,8 +64,8 @@
             Hamburguesa mixta, maionesa, enciam, tomàquet, ceba i formatge gouda
           </th>
           <th>8,50€</th>
-          <img class="meat" src="img/meat.png" /><img
-            class="wheat"
+          <img class="alergenos" src="img/meat.png" /><img
+            class="alergenos"
             src="img/wheat.png"
           />
         </tr>
@@ -77,47 +77,58 @@
         formatge
         cheddar.......................................................................................11,50€
       </p>
-      <img class="meat" src="img/meat.png" /><img
-        class="wheat"
+      <img class="alergenos" src="img/meat.png" /><img
+        class="alergenos"
         src="img/wheat.png"
-      /><img class="milk" src="img/milk-carton.png" />
+      /><img class="alergenos" src="img/milk-carton.png" />
 
       <h4>Latina (180g)</h4>
       <p>
         Hamburguesa mixta, ceba fregida, guacamole, xile, coriandre i ceba
         picada......................................................................................................................9,50€
       </p>
-      <img class="meat" src="img/meat.png" /><img
-        class="wheat"
+      <img class="alergenos" src="img/meat.png" /><img
+        class="alergenos"
         src="img/wheat.png"
-      /><img class="vegetables" src="img/celery.png" />
-
-      <h4>Pollastre Vegà</h4>
-      <p>
-        Hamburguesa de pollastre vegà arrebossat, melmelada de nabius, ceba
-        cruixent, mesclum, tomàquet i salsa de soja caramel·litzada.....10,95€
-      </p>
-      <img class="vegan" src="img/vegan.png" /><img
-        class="wheat"
-        src="img/wheat.png"
-      /><img class="vegetables" src="img/celery.png" /><img
-        class="fruits"
-        src="img/strawberry.png"
-      /><img class="soy" src="img/soy.png" />
-
-      <h4>Vegetariana</h4>
-      <p>
-        Hamburguesa vegetal, mostassa, mesclum, tomàquet i raves, marinat amb
-        tabasco i
-        llimona...................................................................................10,50€
-      </p>
-      <img class="vegan" src="img/vegan.png" /><img
-        class="wheat"
-        src="img/wheat.png"
-      /><img class="vegetables" src="img/celery.png" /><img
-        class="fruits"
-        src="img/strawberry.png"
-      /><img class="soy" src="img/soy.png" />
+      /><img class="alergenos" src="img/celery.png" />
+      <div class="plato">
+        <div class="header-plato">
+          <h4>Pollastre Vegà</h4>
+          <div>10,95€</div>
+        </div>
+        <p>
+          Hamburguesa de pollastre vegà arrebossat, melmelada de nabius, ceba
+          cruixent, mesclum, tomàquet i salsa de soja caramel·litzada
+        </p>
+        <div class="grupo-alergenos">
+          <img class="alergenos" src="img/vegan.png" /><img
+            class="alergenos"
+            src="img/wheat.png"
+          /><img class="alergenos" src="img/celery.png" /><img
+            class="alergenos"
+            src="img/strawberry.png"
+          /><img class="alergenos" src="img/soy.png" />
+        </div>
+      </div>
+      <div class="plato">
+        <div class="header-plato">
+          <h4>Vegetariana</h4>
+          <div>10,50€</div>
+        </div>
+        <p>
+          Hamburguesa vegetal, mostassa, mesclum, tomàquet i raves, marinat amb
+          tabasco i llimona
+        </p>
+        <div class="grupo-alergenos">
+          <img class="alergenos" src="img/vegan.png" /><img
+            class="alergenos"
+            src="img/wheat.png"
+          /><img class="alergenos" src="img/celery.png" /><img
+            class="alergenos"
+            src="img/strawberry.png"
+          /><img class="alergenos" src="img/soy.png" />
+        </div>
+      </div>
     </section>
 
     <footer class="peu">

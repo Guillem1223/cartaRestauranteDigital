@@ -1,0 +1,19 @@
+.header-plato {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.header-plato > h4 {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.alergenos {
+  width: 20px;
+}
+.plato {
+  margin: 60px 0px 0px 0px;
+}
+.grupo-alergenos {
+  display: flex;
+  justify-content: center;
+}
