@@ -15,14 +15,20 @@ Pagina Web del restaurante de la escuela de musica Muba, explicaciones de la ide
 En esta pagina Web tenemos 3 secciones distintas:
 <br>
 Index.html: Es el Home del contenido, aqui podras saber un poco mas sobre el restaurante, como surgio el proyecto, identidad propia y valores añadidos. Tambien podras ver el espacio destinado a los comensales (sala) asi como algunos de los platos mas demandados.
+<br>
 Layout diseñado con GRID y BOOTSTRAP.
 <br>
+<br>
 carta.html: Relacion de platos y precios, en este caso el restaurante ofrece un surtido de hamburguesas con una descripcion detallada de los ingredientes y variantes de de cada una de ellas. Tambien podras ver un listado de alergenos muy visual e intuitivo gracias a sus imagenes.
+<br>
 Layout diseñado con FLEXBOX.
 <br>
+<br>
 contacto.html: La web ofrece la possibilidad de ponerte en contacto con el propietario, ya sea para reservar una mesa para un dia concreto, realizar alguan consulta y si eres un proveedor puedes ofrecer tus servicios y mandar tu informacion atraves de su formulario de contacto.
+<br>
 Formulario diseñado con BOOTSTRAP.
-
+<br>
+<br>
 Diseño Mobile First con Breakpoints media queries:
 <br>
 Movil: 500px
