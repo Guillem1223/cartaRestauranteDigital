@@ -1,16 +1,41 @@
-"# cartaRestauranteDigital" 
-Proyecto pagina web restaurante y carta digital.
+# Restaurante Muba
 
-Antes de todo me gustaria explicar que tengo acceso a classroom desde hace muy poco, vi que teniamos que entregar la tarea ayer. Me hubiera gustado dedicarle mas horas.
-Por otro lado aclarar que todo lo explicado dentro del proyecto es ficticio ya que no tengo ningun restaurante propio.
+## Tabla de Contenidos
 
-En este proyecto encontramos 3 archivos diferentes:
-index.html-----> breve explicacion de como surgio la idea de montar un restaurante, imagenes de espacios y platos.
+- [Descripcion](#descripcion)
+- [Estructura](#estructura)
+- [Propuestas para proximas actualizaciones](#Propuestas_para_proximas_actualizaciones)
 
-contacto.html---> formulario de contacto para que los usuarios dejen toda la informacion necesaria para llamarlos y confirmarles la reserva.
+## Descripción <a name = "descripcion"></a>
 
-carta.html-----> Nuestras hamburguesas, explicacion detallada de lo que lleva cada plato, asi como informacion de contenido mediante ilustraciones para prevenir alergias e intolerancias.
+Pagina Web del restaurante de la escuela de musica Muba, explicaciones de la identidad y filosofia del restaurante, imagenes de la sala, platos y comidas, tambien podras contactar para reservar mesa, o en el caso de ser un proveedor puedes ofrecer tus servicios atraves de ella.
 
-Para una siguiente version deberiamos añadir, ubicacion, reseñas de usuarios, y apartado del equipo que trabaja en el restaurante, para lograr una afinidad con los clientes. Tambien es importante dedicarle mas tiempo a conseguir un disenyo mas agradable e innovador.
+## Estructura <a name = "estructura"></a>
 
-link github: https://github.com/Guillem1223/cartaRestauranteDigital
+En esta pagina Web tenemos 3 secciones distintas:
+<br>
+Index.html: Es el Home del contenido, aqui podras saber un poco mas sobre el restaurante, como surgio el proyecto, identidad propia y valores añadidos. Tambien podras ver el espacio destinado a los comensales (sala) asi como algunos de los platos mas demandados.
+Layout diseñado con GRID y BOOTSTRAP.
+<br>
+carta.html: Relacion de platos y precios, en este caso el restaurante ofrece un surtido de hamburguesas con una descripcion detallada de los ingredientes y variantes de de cada una de ellas. Tambien podras ver un listado de alergenos muy visual e intuitivo gracias a sus imagenes.
+Layout diseñado con FLEXBOX.
+<br>
+contacto.html: La web ofrece la possibilidad de ponerte en contacto con el propietario, ya sea para reservar una mesa para un dia concreto, realizar alguan consulta y si eres un proveedor puedes ofrecer tus servicios y mandar tu informacion atraves de su formulario de contacto.
+Formulario diseñado con BOOTSTRAP.
+
+Diseño Mobile First con Breakpoints media queries:
+<br>
+Movil: 500px
+<br>
+Tablet: 700px
+<br>
+Desktop: 1000px
+
+### Propuestas para proximas actualizaciones o versiones <a name= "Propuestas_para_proximas_actualizaciones"></a>
+
+El codigo esta preparado para poder generar varias actualizaciones mas:
+<br>
+1.1: Estaria muy bien intentar crear una relacion de comunidad con el cliente, propongo crear una seccion donde se presenten los integrantes y trabajadores que desenpeñan sus labores en el restaurante.
+Tambien se pueden generar sorteos y campañas que motiven a los usuarios a visitar las redes sociales del establecimiento.
+<br>
+1.2: Generar 3 secciones de contacto diferentes destinadas a los usuarios objetivos que podrian tener un interes en contactar con el establecimiento. Clientes, trabajadores y finalmente los proveedores.

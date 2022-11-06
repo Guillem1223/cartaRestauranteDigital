@@ -8,8 +8,7 @@
 .titulocarta > h1 {
   font-size: 70px;
 }
-.background {
-}
+
 .header-menu {
   display: flex;
   flex-direction: column;
