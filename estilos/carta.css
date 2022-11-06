@@ -1,3 +1,27 @@
+/* Flex box */
+
+.titulocarta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../img/Carta-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titulocarta > h1 {
+  font-size: 80px;
+}
+.background {
+}
+.header-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-menu > h1 {
+  font-size: 50px;
+}
+
 .header-plato {
   display: flex;
   justify-content: space-between;
@@ -16,4 +40,8 @@
 .grupo-alergenos {
   display: flex;
   justify-content: center;
+}
+.burguer {
+  width: 400px;
+  height: 275px;
 }

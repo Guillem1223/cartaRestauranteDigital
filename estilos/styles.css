@@ -41,7 +41,9 @@ header {
   padding-bottom: 5%;
   padding-right: 5%;
 }
-
+.textpresentacio {
+  font-family: sans-serif;
+}
 h1 {
   padding: 3%;
 }
@@ -93,9 +95,7 @@ span {
 h2 {
   font-family: "Cherry Swash";
 }
-.burguer {
-  width: 10px !important;
-}
+
 .menuburguer {
   background-color: #fff6bf;
   text-align: left;
@@ -110,9 +110,7 @@ h2 {
 .cocina {
   width: 100px;
 }
-.titulocarta {
-  font-size: 7rem;
-}
+
 /* fin pendiente refactorizar */
 
 /* grid-home */
